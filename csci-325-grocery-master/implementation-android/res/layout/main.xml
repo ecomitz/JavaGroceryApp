@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create List"
+            android:id="@+id/FirstButton" android:layout_gravity="center_horizontal" android:clickable="true"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View List"
+            android:id="@+id/SecondButton" android:clickable="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:id="@+id/ThirdButton" android:visibility="invisible"/>
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="326dp"
+            android:id="@+id/ListOfItems" android:layout_gravity="bottom"/>
+
+</LinearLayout>
+

@@ -1,0 +1,3 @@
+Banana 5
+Yogurt 6
+Milk 2

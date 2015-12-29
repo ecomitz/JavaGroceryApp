@@ -1,0 +1,19 @@
+Working copy of plans for Java to Android porting
+
+Portable Classes: (These class libraries are including in the Android SDK)
+	1.	FileManagement 
+	2.	List
+	3.	ListManagement
+
+Rework Classes: (These class will need to be implemented differently on the android platform)
+UI - These classes will be implement through view and view group, by defining the appropriate layouts we can recreate these class in xml.
+	1.	UI
+	2.	UIManagement
+
+Network Discover - These classes are using unsupported libraries in the Android SDK. Our plan is to implement these classes through the use of  android.bluetooth and android.net (wifi)
+	1.	LAN
+	2.	LANManagement
+	3.	LANServers
+
+
+	

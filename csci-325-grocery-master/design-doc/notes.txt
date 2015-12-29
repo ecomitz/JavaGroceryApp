@@ -1,0 +1,9 @@
+ProcessesForGroceryApp.doc:
+Convert to UML
+
+ProcessesForGroceryApp.dia-:
+This is not a full class diagram (it is missing functions), but it is a good start.
+
+Grade:
+60
+resubmit! Go ahead and start coding.
